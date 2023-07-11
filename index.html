@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -36,19 +36,20 @@
   </head>
   <body>
     <!-- header -->
+    <nav>
+      <img class="header__image" src="./images/logo.svg" alt="sunnyside logo in white">
+      <img class="header__image menu__icon" src="./images/icon-hamburger.svg" alt="hamburger menu" id="menu-icon">
+    </nav>
+    <div class="nav__menu hidden">
+      <div class="arrow-left"></div>
+      <ul class="nav__links">
+        <li class="nav__link"><a href="#">About</a></li>
+        <li class="nav__link"><a href="#">Services</a></li>
+        <li class="nav__link"><a href="#">Projects</a></li>
+        <li class="nav__link contact"><a href="#">Contact</a></li>
+      </ul>
+    </div>
     <header>
-      <nav>
-        <img class="header__image" src="./images/logo.svg" alt="sunnyside logo in white">
-        <img class="header__image" src="./images/icon-hamburger.svg" alt="hamburger menu">
-      </nav>
-      <div class="nav__menu hidden">
-        <ul class="nav__links">
-          <li class="nav__link">About</li>
-          <li class="nav__link">Services</li>
-          <li class="nav__link">Projects</li>
-          <li class="nav__link contact">Contact</li>
-        </ul>
-      </div>
       <h1 class="header__title">We Are Creatives</h1>
       <img src="./images/icon-arrow-down.svg" alt="white arrow pointing downward" class="header__image__arrow">
     </header>
