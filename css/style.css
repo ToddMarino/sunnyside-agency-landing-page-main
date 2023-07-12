@@ -62,7 +62,7 @@ a {
 header {
   height: 540px;
   background: url('/images/mobile/image-header.jpg') no-repeat center;
-  background-size: cover;
+  background-size: 100%;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -408,6 +408,7 @@ footer ul li {
   header {
     height: 100vh;
     background: url('/images/desktop/image-header.jpg') no-repeat center;
+    background-size: 100%;
   }
 
   header nav {
