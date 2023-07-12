@@ -223,7 +223,7 @@ nav ul li a {
 [data-intro-image] {
   max-height: 100%;
   height: 310px;
-  width: 375px;
+  width: 100%;
   max-width:750px;
 }
 
@@ -464,14 +464,17 @@ footer ul li {
   [data-intro-image],
   [data-intro-text] {
     height: 600px;
+    width: 100%;
   }
 
   [data-intro-image='transform'] {
     background: url('/images/desktop/image-transform.jpg') no-repeat center;
+    background-size:cover;
   }
 
   [data-intro-image='stand out'] {
     background: url('/images/desktop/image-stand-out.jpg') no-repeat center;
+    background-size:cover;
   }
 
   .intro--inner {
